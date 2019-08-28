@@ -1,0 +1,45 @@
+.company-profile {
+    width: 978px;
+}
+.com-titlle {
+    width: 184px;
+}
+.com-titlle p:nth-child(1) {
+    color: #666666;
+    font-size: 12px;
+    align-items: flex-end;
+    margin-top: 36px;
+}
+.com-titlle p:nth-child(1) span:nth-child(1) {
+    color: #323232;
+    font-size: 18px;
+}
+.com-titlle p:nth-child(2) {
+    border-top: 1px solid #b13537;
+    margin-top: 8px;
+}
+.com-text p{
+    margin-top: 12px;
+    font-size: 14px;
+    color: #666666;
+    line-height: 22px;
+    text-align: justify;
+}
+.com-img {
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

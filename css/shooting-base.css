@@ -1,0 +1,146 @@
+.corridor-box {
+    width: 942px;
+}
+.corridor {
+    width: 825px;
+    height: 350px;
+    border: 1px solid #666666;
+    margin-top: 64px;
+    position: relative;
+    padding-top: 12px;
+    padding-right: 12px;
+    margin-bottom: 53px;
+}
+
+.box1,.box2,.box3,.box4,.box5,.box6,.box7,.box8,.box9,.box10,.box11,.box12,.box13,.box14,.box15,.box16 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 12px;
+    padding-right: 12px;
+    width: 825px;
+    height: 350px;
+    display: none;
+}
+.corridor > div.active {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+.corridor-title {
+    position: absolute;
+    top: -20px;
+    right: 203px;
+    /* width: 192px; */
+    padding: 0 30px;
+    height: 43px;
+    border: 1px solid #666666;
+    background-color: #fff;
+    color: #333333;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+.corridor-title p:nth-child(1) {
+    font-size: 24px;
+    margin-top: -11px;
+    background-color: #fff;
+    padding: 0 5px;
+    /* width: 134px; */
+}
+.corridor-title p:nth-child(2) {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #666666;
+}
+.corridor-text p {
+    width: 630px;
+    margin-top: 32px;
+    line-height: 22px;
+    font-size: 12px;
+    color: #666666;
+    text-align: justify;
+}
+
+.gray {
+    width: 242px;
+    height: 344px;
+    background-color: #666666;
+    position: absolute;
+    left: -60px;
+    top: -20px;
+}
+
+.corridor img {
+    position: absolute;
+    top: -47px;
+    left: -98px;
+}
+
+.corridor-bottom {
+    width: 942px;
+    padding-bottom: 70px;
+    justify-content: space-between;
+}
+.corridor-list {
+    width: 840px;
+    justify-content: space-between;
+    align-items: center;
+}
+.corridor-list img {
+    width: 258px;
+    height: 180px;
+    transition: all 0.1s linear;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.corridor-item {
+    width: 308px;
+    height: 206px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.corridor-img img{
+    width: 308px;
+    height: 206px;
+}
+.corridori-text {
+    height: 58px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 14px;
+    color: #fff;
+    line-height: 58px;
+    background-color: rgba(255,0,0,0.5);
+    opacity: 1;
+    transition: all 0.1s linear;
+}
+.lfet-btn,.right-btn {
+    font-size: 50px;
+    /* width: 20px; */
+    line-height: 206px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
